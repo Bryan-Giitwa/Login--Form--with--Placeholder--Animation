@@ -6,8 +6,8 @@
 
 2. Files
 
-   index.html
-   styles.css
+index.html
+styles.css
 
 # index.html
 
