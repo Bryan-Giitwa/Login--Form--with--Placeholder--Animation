@@ -6,8 +6,8 @@
 
 2. Files
 
-   index.html: Contains the structure of the login form.
-   styles.css: Provides styling to the form for a visually appealing and responsive design.
+   index.html
+   styles.css
 
 # index.html
 
