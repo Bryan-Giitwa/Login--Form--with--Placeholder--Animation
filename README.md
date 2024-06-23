@@ -6,7 +6,7 @@
 
 2. Files
 
-index.html
+index.html<br>
 styles.css
 
 # index.html
