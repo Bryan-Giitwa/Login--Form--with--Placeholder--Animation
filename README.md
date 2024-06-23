@@ -6,8 +6,8 @@
 
 2. Files
 
-   index.html<br>
-   styles.css
+- index.html<br>
+- styles.css
 
 # index.html
 
