@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login HTML Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form>
+      <h1>Login</h1>
+      <input type="text" id="username" placeholder="Enter your username" />
+      <label for="username" onclick="expand(this)">USERNAME</label>
+
+      <input type="password" id="password" placeholder="Enter your password" />
+      <label for="password" onclick="expand(this)">PASSWORD</label>
+
+      <button>SUBMIT</button>
+    </form>
+
+    <!-- script.js -->
+    <script>
+      function expand(lbl) {
+        var elemId = lbl.getAttribute("for");
+        document.getElementById(elemId).style.height = "45px";
+        document.getElementById(elemId).classList.add("my-style");
+        lbl.style.transform = "translateY(-45px)";
+      }
+    </script>
+  </body>
+</html>
