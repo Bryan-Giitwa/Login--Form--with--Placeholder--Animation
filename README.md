@@ -15,3 +15,5 @@ This file contains the HTML structure of the login form. Key elements include:
 - input: Text and password fields for the username and password.
 - label: Labels for the input fields that, when clicked, trigger a JavaScript function to expand the input fields.
 - button: Submit button for the form.
+
+![alt text](image.png)
